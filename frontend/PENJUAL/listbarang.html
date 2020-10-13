@@ -1,0 +1,124 @@
+<html lang="en"><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+			    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Bootstrap 101 Template</title>
+
+	<link rel="stylesheet" type="text/css" href="../styles/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+			    <!-- Bootstrap -->
+				<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+				<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	</head>
+	<body>
+		<input type="hidden" id="menu" value="transaksi">
+			<nav class="navbar navbar-dark">
+						<div class="container-fluid">
+						  <!-- Brand and toggle get grouped for better mobile display -->
+						  <div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							  <span class="sr-only">Toggle navigation</span>
+							  <span class="icon-bar"></span>
+							  <span class="icon-bar"></span>
+							  <span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">Docotel</a>
+						  </div>
+					  
+						  <!-- Collect the nav links, forms, and other content for toggling -->
+						  
+							<ul class="nav navbar-nav navbar-right">
+							  <li><a href="index1.html" href="#">Logout</a></li>
+							  
+							</ul>
+						  </div><!-- /.navbar-collapse -->
+						<!-- /.container-fluid -->
+			</nav>
+					<div class="sidebar">
+						<ul>
+							<a href="listpemesanan.html"><li data-target="keranjang">Verifikasi Makanan</li></a>
+							<a href="listbarang.html"><li data-target="list_pesanan"  class="active">List Data Makanan</li></a>
+							<a href="profile.html"><li data-target="profile">Profile</li></a>
+						</ul>
+					</div>
+
+					<div class="content">
+						<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<h2 style="text-align: center;">TABEL BARANG</h2>
+							</br>
+							<a href="tambahdatabarang.html" class="btn btn-primary" style="text-align: left;">Tambah Data</a>
+			  				<a href="editdatabarang.html" class="btn btn-warning" style="text-align: left;">Update Data</a>
+			  				<button name="btn_tambah" class="btn btn-success" style="text-align: left;">Update Ketersediaan
+			  				</button>
+			  				</br>
+			  				</br>
+			  				</br>
+			  			<div class="table-bordered" style="text-align: center;">          
+						<table class="table" style="text-align: center;">
+						    	<thead>
+						      <tr class="success">
+						        <th>#</th>
+						        <th>Barang</th>
+						        <th>Nama Barang</th>
+						        <th>Stok</th>
+						        <th>Status</th>
+						        <th>Aksi</th>
+						      </tr>
+						    	</thead>
+
+						    <tbody style="text-align: center;">
+						      <tr>
+						        <td>1</td>
+						        <td><img src="../images/mie.png" style="width: 70px; height: 70px;"></td>
+						        <td>Mie Indomie</td>
+						        <td><div class="form-group"><input type="email" name="namanama" value="3" class="form-control" id="email" style="width: 80px;"></div></td>
+						        <td><label style="color: green;">Available</label></td>
+						        <td><a href="#" >Detail</a></td>
+						      </tr>
+						 	</tbody>
+						 	<tbody style="text-align: center;">
+						      <tr>
+						        <td>2</td>
+						        <td><img src="../images/mie.png" style="width: 70px; height: 70px;"></td>
+						        <td>Mie Indomie</td>
+						        <td><div class="form-group"><input type="email" name="namanama" value="3" class="form-control" id="email" style="width: 80px;"></div></td>
+						        <td><label style="color: green;">Available</label></td>
+						        <td><a href="#" >Detail</a></td>
+						      </tr>
+						 	</tbody>
+						 	<tbody style="text-align: center;">
+						      <tr>
+						        <td>3</td>
+						        <td><img src="../images/mie.png" style="width: 70px; height: 70px;"></td>
+						        <td>Mie Indomie</td>
+						        <td><div class="form-group"><input type="email" name="namanama" value="3" class="form-control" id="email" style="width: 80px;"></div></td>
+						        <td><label style="color: green;">Available</label></td>
+						        <td><a href="#" >Detail</a></td>
+						      </tr>
+							</tbody>
+			 				<tbody style="text-align: center;">
+						      <tr>
+						        <td>4</td>
+						        <td><img src="../images/mie.png" style="width: 70px; height: 70px;"></td>
+						        <td>Mie Indomie</td>
+						        <td><div class="form-group"><input type="email" name="namanama" value="0" class="form-control" id="email" style="width: 80px;"></div></td>
+						        <td><label style="color: red;">Habis</label></td>
+						        <td><a href="#" >Detail</a></td>
+						      </tr>
+			 				</tbody>
+			  			</table>
+			  			</div>
+						</div>
+						</div>
+					</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  	<script src="../scripts/main.js"></script>
+	</body>
+</html>

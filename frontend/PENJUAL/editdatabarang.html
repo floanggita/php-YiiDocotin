@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+          <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Bootstrap 101 Template</title>
+
+  <link rel="stylesheet" type="text/css" href="../styles/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+          <!-- Bootstrap -->
+        <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+</head>
+  <body>
+      <input type="hidden" id="menu" value="transaksi">
+      <nav class="navbar navbar-dark">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Docotel</a>
+              </div>
+            
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index1.html" href="#">Logout</a></li>
+                
+              </ul>
+              </div><!-- /.navbar-collapse -->
+            <!-- /.container-fluid -->
+      </nav>
+          <div class="sidebar">
+            <ul>
+              <a href="listpemesanan.html"><li data-target="keranjang">Verifikasi Makanan</li></a>
+              <a href="listbarang.html"><li data-target="list_pesanan"  class="active">List Data Makanan</li></a>
+              <a href="profile.html"><li data-target="profile">Profile</li></a>
+            </ul>
+          </div>
+ 
+  <div class="content">
+    <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <form style="margin-top: 30px;">
+      <div class="form-group">
+      <table border="0">
+      <h2 style="text-align: center;">Form Edit Barang</h2>
+      <br/>
+      <br/> 
+
+          <tr>
+              <td width="200px" height="50px"><label>Kode Barang</label></td>
+              <td width="200px" height="50px"><label>= Kode =</label></td>
+          </tr>
+
+          <tr>
+              <td width="200px" height="50px"><label>Nama Barang</label></td>
+              <td width="200px" height="50px"><input type="text" name="namabarang" class="form-control"></td>
+          </tr>
+
+          <tr>
+              <td width="200px" height="50px"><label>Jumlah Barang</label></td>
+              <td width="200px" height="50px"><input type="text" name="namabarang" class="form-control"></td>
+          </tr>
+
+          <tr>
+              <td width="200px" height="50px"><label>Harga</label></td>
+              <td width="200px" height="50px"><input type="text" name="namabarang" class="form-control"></td>
+          </tr>
+
+          <tr>
+              <td width="200px" height="50px"><label>Deskripsi</label></td>
+              <td width="200px" height="50px"><input type="text" name="namabarang" class="form-control"></td>
+          <tr>
+              <td width="200px" height="50px"><label>Upload Barang</label></td>
+              <div class="custom-file">
+              <td width="200px" height="50px"><input type="file" name="namabarang" class="custom-file-input"></td>
+              </div>
+          </tr>
+
+          <tr>
+              <td width="200px" height="50px"></td>
+              <div class="custom-file">
+              <td width="200px" height="50px">
+              <button name="btn_tambah" class="btn btn-primary" style="text-align: left;">Edit Data</button>
+              <button name="btn_tambah" class="btn btn-danger" style="text-align: left;">Cancel</button>
+              </td>
+              </div>
+          </tr>
+      </table>
+      </div>
+      </form>
+    </div>
+    </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="../scripts/main.js"></script>
+  </body>
+</html>
