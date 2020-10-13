@@ -9,3 +9,5 @@ miftahhafifudin - Backend
 floanggita - Analyst & Backend 
 
 ratihdlestari - Frontend
+
+Mentor - Sabila - Audris - Fatoni
